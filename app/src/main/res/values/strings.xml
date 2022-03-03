@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Suit Game</string>
     <string name="logo_app">Application logo</string>
-    <string name="start">Mulai!</string>
+    <string name="start">Start!</string>
+    <string name="suit_game">Suit\nGame</string>
+    <string name="goal">Built for the Binar Bootcamp code challenge</string>
+    <string name="start_illustration">Start Illustration</string>
 </resources>
