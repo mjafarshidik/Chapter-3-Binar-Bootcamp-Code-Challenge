@@ -7,7 +7,7 @@
     tools:context=".SuitActivity">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/btnBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -74,7 +74,7 @@
         app:layout_constraintEnd_toStartOf="@+id/paperP1"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/btnBack"
         app:srcCompat="@drawable/scissor_p1"
         android:contentDescription="@string/scissor_player_one" />
 
@@ -86,7 +86,7 @@
         app:layout_constraintEnd_toStartOf="@+id/rockP1"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/scissorP1"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/btnBack"
         app:srcCompat="@drawable/paper_p1"
         android:contentDescription="@string/paper_player_one" />
 
@@ -98,7 +98,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/paperP1"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/btnBack"
         app:srcCompat="@drawable/rock_p1"
         android:contentDescription="@string/rock_player_one" />
 
@@ -111,9 +111,9 @@
         android:fontFamily="@font/poppins_regular"
         android:textColor="@color/black"
         android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+        app:layout_constraintBottom_toBottomOf="@+id/btnBack"
+        app:layout_constraintStart_toEndOf="@+id/btnBack"
+        app:layout_constraintTop_toTopOf="@+id/btnBack" />
 
     <TextView
         android:id="@+id/textView7"
