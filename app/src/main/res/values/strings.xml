@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Suit Game</string>
     <string name="logo_app">Application logo</string>
+    <string name="start">Mulai!</string>
 </resources>
