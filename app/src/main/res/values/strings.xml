@@ -6,4 +6,13 @@
     <string name="goal">Built for the Binar Bootcamp code challenge</string>
     <string name="start_illustration">Start Illustration</string>
     <string name="ini_suit_activity">Ini suit Activity</string>
+    <string name="icon_back">Icon Back</string>
+    <string name="rock_player_two">Rock player two</string>
+    <string name="paper_player_two">Paper player two</string>
+    <string name="scissor_player_two">Scissor player two</string>
+    <string name="pick_an_option_p2">Pick an Option, Player 2!</string>
+    <string name="scissor_player_one">Scissor player one</string>
+    <string name="paper_player_one">Paper player one</string>
+    <string name="rock_player_one">Rock player one</string>
+    <string name="suit_game_in_game">Suit Game : Let\'s Fight!</string>
 </resources>
