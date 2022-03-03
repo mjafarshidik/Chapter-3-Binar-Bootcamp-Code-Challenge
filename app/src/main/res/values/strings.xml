@@ -15,4 +15,6 @@
     <string name="paper_player_one">Paper player one</string>
     <string name="rock_player_one">Rock player one</string>
     <string name="suit_game_in_game">Suit Game : Let\'s Fight!</string>
+    <string name="pick_an_option_p1">Pick an Option, Player 1!</string>
+    <string name="fight">Fight!</string>
 </resources>
