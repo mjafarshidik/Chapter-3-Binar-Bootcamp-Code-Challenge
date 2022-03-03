@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.mjafarshidik.suitgame.databinding.ActivitySuitBinding
+import com.shashank.sony.fancytoastlib.FancyToast
 
 class SuitActivity : AppCompatActivity() {
     private lateinit var suitBinding: ActivitySuitBinding
@@ -60,8 +61,8 @@ class SuitActivity : AppCompatActivity() {
         } else if (optionP1 == 2 && optionP2 == 3) {
             finalResult = "Player 2 wins!"
         }
-
-        Toast.makeText(this, finalResult, Toast.LENGTH_LONG).show()
+        
+        FancyToast.makeText(this, finalResult, FancyToast.LENGTH_LONG, FancyToast.DEFAULT,true).show()
     }
 
     private fun pickOptionPlayerOne() {
