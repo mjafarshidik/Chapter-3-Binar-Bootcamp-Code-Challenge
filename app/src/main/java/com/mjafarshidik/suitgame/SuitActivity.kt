@@ -186,7 +186,7 @@ class SuitActivity : AppCompatActivity() {
         }
     }
 
-    fun clearAnswer() {
+    private fun clearAnswer() {
         suitBinding.apply {
             rockP1.setImageResource(R.drawable.rock_p1)
             paperP1.setImageResource(R.drawable.paper_p1)
