@@ -2,7 +2,6 @@ package com.mjafarshidik.suitgame
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import com.mjafarshidik.suitgame.databinding.ActivitySuitBinding
 import com.shashank.sony.fancytoastlib.FancyToast
 
